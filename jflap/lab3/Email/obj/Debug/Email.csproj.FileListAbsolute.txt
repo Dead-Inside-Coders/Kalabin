@@ -1,0 +1,7 @@
+F:\java\Kalabin\jflap\lab3\Email\bin\Debug\Email.exe.config
+F:\java\Kalabin\jflap\lab3\Email\bin\Debug\Email.exe
+F:\java\Kalabin\jflap\lab3\Email\bin\Debug\Email.pdb
+F:\java\Kalabin\jflap\lab3\Email\obj\Debug\Email.csprojAssemblyReference.cache
+F:\java\Kalabin\jflap\lab3\Email\obj\Debug\Email.csproj.CoreCompileInputs.cache
+F:\java\Kalabin\jflap\lab3\Email\obj\Debug\Email.exe
+F:\java\Kalabin\jflap\lab3\Email\obj\Debug\Email.pdb

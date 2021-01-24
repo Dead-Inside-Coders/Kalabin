@@ -1,0 +1,7 @@
+F:\java\Kalabin\jflap\lab3\FA-Model\bin\Debug\FA-Model.exe.config
+F:\java\Kalabin\jflap\lab3\FA-Model\bin\Debug\FA-Model.exe
+F:\java\Kalabin\jflap\lab3\FA-Model\bin\Debug\FA-Model.pdb
+F:\java\Kalabin\jflap\lab3\FA-Model\obj\Debug\FA-Model.csprojAssemblyReference.cache
+F:\java\Kalabin\jflap\lab3\FA-Model\obj\Debug\FA-Model.csproj.CoreCompileInputs.cache
+F:\java\Kalabin\jflap\lab3\FA-Model\obj\Debug\FA-Model.exe
+F:\java\Kalabin\jflap\lab3\FA-Model\obj\Debug\FA-Model.pdb
