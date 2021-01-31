@@ -1,0 +1,7 @@
+F:\java\Kalabin\jflap\lab5\determinization\bin\Debug\determinization.exe.config
+F:\java\Kalabin\jflap\lab5\determinization\bin\Debug\determinization.exe
+F:\java\Kalabin\jflap\lab5\determinization\bin\Debug\determinization.pdb
+F:\java\Kalabin\jflap\lab5\determinization\obj\Debug\determinization.csprojAssemblyReference.cache
+F:\java\Kalabin\jflap\lab5\determinization\obj\Debug\determinization.csproj.CoreCompileInputs.cache
+F:\java\Kalabin\jflap\lab5\determinization\obj\Debug\determinization.exe
+F:\java\Kalabin\jflap\lab5\determinization\obj\Debug\determinization.pdb

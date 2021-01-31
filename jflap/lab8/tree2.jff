@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>&#13;
+	<type>lsystem</type>&#13;
+	<!--The L-system axiom.-->&#13;
+	<axiom>X</axiom>&#13;
+	<!--The rewriting rules.-->&#13;
+	<production>&#13;
+		<left>X</left>&#13;
+		<right>g [ + X ] g [ - X ] + X</right>&#13;
+	</production>&#13;
+	<production>&#13;
+		<left>g</left>&#13;
+		<right>g g</right>&#13;
+	</production>&#13;
+	<!--The drawing parameters.-->&#13;
+	<parameter>&#13;
+		<name>angle</name>&#13;
+		<value>20</value>&#13;
+	</parameter>&#13;
+</structure>

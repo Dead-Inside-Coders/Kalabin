@@ -1,0 +1,7 @@
+F:\java\Kalabin\jflap\lab5forLeha\DataSort\bin\Debug\DataSort.exe.config
+F:\java\Kalabin\jflap\lab5forLeha\DataSort\bin\Debug\DataSort.exe
+F:\java\Kalabin\jflap\lab5forLeha\DataSort\bin\Debug\DataSort.pdb
+F:\java\Kalabin\jflap\lab5forLeha\DataSort\obj\Debug\DataSort.csprojAssemblyReference.cache
+F:\java\Kalabin\jflap\lab5forLeha\DataSort\obj\Debug\DataSort.csproj.CoreCompileInputs.cache
+F:\java\Kalabin\jflap\lab5forLeha\DataSort\obj\Debug\DataSort.exe
+F:\java\Kalabin\jflap\lab5forLeha\DataSort\obj\Debug\DataSort.pdb

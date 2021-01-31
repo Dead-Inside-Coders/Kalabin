@@ -1,0 +1,7 @@
+F:\java\Kalabin\jflap\lab7\turing\turing\bin\Debug\turing.exe.config
+F:\java\Kalabin\jflap\lab7\turing\turing\bin\Debug\turing.exe
+F:\java\Kalabin\jflap\lab7\turing\turing\bin\Debug\turing.pdb
+F:\java\Kalabin\jflap\lab7\turing\turing\obj\Debug\turing.csprojAssemblyReference.cache
+F:\java\Kalabin\jflap\lab7\turing\turing\obj\Debug\turing.csproj.CoreCompileInputs.cache
+F:\java\Kalabin\jflap\lab7\turing\turing\obj\Debug\turing.exe
+F:\java\Kalabin\jflap\lab7\turing\turing\obj\Debug\turing.pdb
