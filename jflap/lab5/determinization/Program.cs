@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace NFADeterminization
 {
@@ -53,23 +54,30 @@ namespace NFADeterminization
 
 		static NFA readInput()
 		{
-			NFA nfa;
-			nfa.StatesCount = Convert.ToInt32(Console.In.ReadLine());
+			FileStream fs = new FileStream("example.txt", FileMode.Open, FileAccess.Read);
+			StreamReader sr = new StreamReader(fs);
 
-			string symbols_str = Console.In.ReadLine();
+			NFA nfa;
+			nfa.StatesCount = Convert.ToInt32(sr.ReadLine());
+            Console.WriteLine(nfa.StatesCount);
+			string symbols_str = sr.ReadLine();
 			nfa.Symbols = symbols_str.ToCharArray(0, symbols_str.Length);
 
-			string[] favorable_list = (Console.In.ReadLine()).Split(' ');
+			string[] favorable_list = (sr.ReadLine()).Split(' ');
 			nfa.IsFavorable = new bool[nfa.StatesCount + 1];
 			foreach (string id in favorable_list)
+            {
+				Console.WriteLine(id);
 				nfa.IsFavorable[Convert.ToInt32(id)] = true;
-
-			nfa.StartState = Convert.ToInt32(Console.In.ReadLine());
-
+			}
+				
+			nfa.StartState = Convert.ToInt32(sr.ReadLine());
+            Console.WriteLine(nfa.StartState);
 			nfa.Rules = new Dictionary<Leftside, List<int>>();
 			string s;
-			while ((s = Console.In.ReadLine()) != "")
+			while ((s = sr.ReadLine()) != null)
 			{
+                Console.WriteLine(s);
 				string[] tr = s.Split(' ');
 
 				Leftside ls = new Leftside(Convert.ToInt32(tr[0]), Convert.ToChar(tr[1]));

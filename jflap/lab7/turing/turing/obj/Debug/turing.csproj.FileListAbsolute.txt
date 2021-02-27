@@ -5,3 +5,10 @@ F:\java\Kalabin\jflap\lab7\turing\turing\obj\Debug\turing.csprojAssemblyReferenc
 F:\java\Kalabin\jflap\lab7\turing\turing\obj\Debug\turing.csproj.CoreCompileInputs.cache
 F:\java\Kalabin\jflap\lab7\turing\turing\obj\Debug\turing.exe
 F:\java\Kalabin\jflap\lab7\turing\turing\obj\Debug\turing.pdb
+C:\Users\Egor_Zavgorodnev\Desktop\Kalabin-main\jflap\lab7\turing\turing\bin\Debug\turing.exe.config
+C:\Users\Egor_Zavgorodnev\Desktop\Kalabin-main\jflap\lab7\turing\turing\bin\Debug\turing.exe
+C:\Users\Egor_Zavgorodnev\Desktop\Kalabin-main\jflap\lab7\turing\turing\bin\Debug\turing.pdb
+C:\Users\Egor_Zavgorodnev\Desktop\Kalabin-main\jflap\lab7\turing\turing\obj\Debug\turing.csprojAssemblyReference.cache
+C:\Users\Egor_Zavgorodnev\Desktop\Kalabin-main\jflap\lab7\turing\turing\obj\Debug\turing.csproj.CoreCompileInputs.cache
+C:\Users\Egor_Zavgorodnev\Desktop\Kalabin-main\jflap\lab7\turing\turing\obj\Debug\turing.exe
+C:\Users\Egor_Zavgorodnev\Desktop\Kalabin-main\jflap\lab7\turing\turing\obj\Debug\turing.pdb

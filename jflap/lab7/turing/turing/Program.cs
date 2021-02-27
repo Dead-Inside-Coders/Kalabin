@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.IO;
 using System.Runtime.InteropServices;
 
 
@@ -67,22 +68,29 @@ namespace turing
         }
         static void Main(string[] args)
         {
-            int Sstate = Convert.ToInt32(Console.In.ReadLine());
-            int Ystate = Convert.ToInt32(Console.In.ReadLine());
-            int Nstate = Convert.ToInt32(Console.In.ReadLine());
+            Console.WriteLine("Язык: AnBnCn");
+            FileStream fs = new FileStream("example1.txt", FileMode.Open, FileAccess.Read);
+            StreamReader sr = new StreamReader(fs);
 
-            string Tape = ">" + (string)Console.In.ReadLine() + "_";
+            int Sstate = Convert.ToInt32(sr.ReadLine());
+            int Ystate = Convert.ToInt32(sr.ReadLine());
+            int Nstate = Convert.ToInt32(sr.ReadLine());
+            Console.WriteLine(Sstate);
+            Console.WriteLine(Ystate);
+            Console.WriteLine(Nstate);
 
+            string Tape = ">" + (string)sr.ReadLine() + "_";
+            Console.WriteLine(Tape);
             Hashtable rules = new Hashtable();
             string s;
 
-            while ((s = Console.In.ReadLine()) != "")
+            while ((s = sr.ReadLine()) != null)
             {
                 string[] tr = s.Split(' ');
 
                 rules.Add(new LeftSide(Convert.ToInt32(tr[0]), Convert.ToChar(tr[1])),
                     new RightSide(Convert.ToInt32(tr[2]), Convert.ToChar(tr[3]), Convert.ToChar(tr[4])));
-
+                Console.WriteLine(tr[0] + " " + tr[1] + " " + tr[2] + " " + tr[3] + " " + tr[4]);
             }
             int State = Sstate;
             int TapeIdx = 1;
@@ -96,8 +104,14 @@ namespace turing
                         Console.WriteLine("Работа прервана");
                         return;
                     }
+                    if (rules[new LeftSide(State, Tape[TapeIdx])] == null)
+                    {
+                        Console.WriteLine("Строка отвергнута");
+                        Console.ReadKey();
+                        return;
+                    }
 
-                    RightSide r = (RightSide)rules[new LeftSide(State, Tape[TapeIdx])];
+                    RightSide r = (RightSide)rules[new LeftSide(State, Tape[TapeIdx])]; ;      
                     State = r.state;
                     Tape = (Tape.Remove(TapeIdx, 1)).Insert(TapeIdx, r.symbol.ToString());
                     if (r.command == 'L')
@@ -112,6 +126,7 @@ namespace turing
                     {
                         Tape += "_";
                     }
+                    Console.WriteLine(Tape);
                 }
                 Console.WriteLine(State == Ystate ? "Строка допущена" : "Строка отвергнута");
             } catch (Exception)

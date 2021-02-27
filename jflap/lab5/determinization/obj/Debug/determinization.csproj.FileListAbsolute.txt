@@ -5,3 +5,10 @@ F:\java\Kalabin\jflap\lab5\determinization\obj\Debug\determinization.csprojAssem
 F:\java\Kalabin\jflap\lab5\determinization\obj\Debug\determinization.csproj.CoreCompileInputs.cache
 F:\java\Kalabin\jflap\lab5\determinization\obj\Debug\determinization.exe
 F:\java\Kalabin\jflap\lab5\determinization\obj\Debug\determinization.pdb
+C:\Users\Egor_Zavgorodnev\Desktop\Kalabin-main\jflap\lab5\determinization\bin\Debug\determinization.exe.config
+C:\Users\Egor_Zavgorodnev\Desktop\Kalabin-main\jflap\lab5\determinization\bin\Debug\determinization.exe
+C:\Users\Egor_Zavgorodnev\Desktop\Kalabin-main\jflap\lab5\determinization\bin\Debug\determinization.pdb
+C:\Users\Egor_Zavgorodnev\Desktop\Kalabin-main\jflap\lab5\determinization\obj\Debug\determinization.csprojAssemblyReference.cache
+C:\Users\Egor_Zavgorodnev\Desktop\Kalabin-main\jflap\lab5\determinization\obj\Debug\determinization.csproj.CoreCompileInputs.cache
+C:\Users\Egor_Zavgorodnev\Desktop\Kalabin-main\jflap\lab5\determinization\obj\Debug\determinization.exe
+C:\Users\Egor_Zavgorodnev\Desktop\Kalabin-main\jflap\lab5\determinization\obj\Debug\determinization.pdb
