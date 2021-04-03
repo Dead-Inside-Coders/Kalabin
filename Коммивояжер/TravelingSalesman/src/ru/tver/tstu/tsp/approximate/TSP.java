@@ -46,6 +46,6 @@ public class TSP {
         //System.out.println("Total distance: " + totalCost);
         long end = System.currentTimeMillis();
 
-        System.out.println(paths[0].length + " cities - " + totalCost + ". Time: " + (end - start) + " ms");
+        System.out.println("MST: " + paths[0].length + " cities - " + totalCost + ". Time: " + (end - start) + " ms");
     }
 }

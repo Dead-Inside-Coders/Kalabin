@@ -56,7 +56,7 @@ public class TravellingSalesmanBruteForce
         long start = System.currentTimeMillis();
         this.permutation(1);
         long end = System.currentTimeMillis();
-        System.out.println(dists[0].length + " cities - " + minDistance + ". Time: " + (end - start) + " ms");
+        System.out.println("Brute Force: " + dists[0].length + " cities - " + minDistance + ". Time: " + (end - start) + " ms");
     }
 
     private double calculateDistance(double[][] dists)
