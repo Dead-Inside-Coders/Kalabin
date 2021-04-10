@@ -1,7 +1,9 @@
+package test.java;
+
+import main.java.ru.tsp.full.*;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import ru.tver.tstu.tsp.full.TravellingSalesmanBruteForce;
 
 public class BruteForceTest {
 
